@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 3 + Fill 4 + Fill 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-1293.000000, -32.000000)" fill="#909090">
+            <g id="header" sketch:type="MSLayerGroup">
+                <g id="Imported-Layers" transform="translate(1194.000000, 32.000000)" sketch:type="MSShapeGroup">
+                    <g id="Fill-3-+-Fill-4-+-Fill-5" transform="translate(99.000000, 0.000000)">
+                        <path d="M12.54,5.629 C10.719,5.629 9.905,6.627 9.448,7.331 L9.448,7.365 L9.425,7.365 L9.448,7.331 L9.448,5.871 L6.019,5.871 C6.063,6.838 6.019,16.188 6.019,16.188 L9.448,16.188 L9.448,10.426 C9.448,10.116 9.47,9.811 9.561,9.59 C9.809,8.975 10.375,8.333 11.321,8.333 C12.563,8.333 13.059,9.281 13.059,10.668 L13.059,16.188 L16.489,16.188 L16.489,10.272 C16.489,7.102 14.796,5.629 12.54,5.629" id="Fill-3"></path>
+                        <path d="M2.428,0.895 C1.257,0.895 0.489,1.666 0.489,2.678 C0.489,3.668 1.233,4.462 2.383,4.462 L2.406,4.462 C3.602,4.462 4.347,3.668 4.347,2.678 C4.325,1.666 3.602,0.895 2.428,0.895" id="Fill-4"></path>
+                        <path d="M0.691,5.871 L4.122,5.871 L4.122,16.188 L0.691,16.188 L0.691,5.871 Z" id="Fill-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

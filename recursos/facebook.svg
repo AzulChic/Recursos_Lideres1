@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="17px" viewBox="0 0 8 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-1194.000000, -32.000000)" fill="#909090">
+            <g id="header" sketch:type="MSLayerGroup">
+                <g id="Imported-Layers" transform="translate(1194.000000, 32.000000)" sketch:type="MSShapeGroup">
+                    <path d="M5.369,0.541 C2.638,0.541 2.017,2.587 2.017,3.895 L2.017,5.722 L0.437,5.722 L0.437,8.547 L2.017,8.547 L2.017,16.541 L5.339,16.541 L5.339,8.547 L7.581,8.547 L7.872,5.722 L5.339,5.722 L5.339,4.062 C5.339,3.438 5.753,3.293 6.044,3.293 L7.83,3.293 L7.83,0.55 L5.369,0.541" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,195 @@
+/* Ingresa tu código css aquí */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+a:hover {
+	text-decoration: none; 
+}
+
+/* header */
+
+header .container {
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border-color: #1d9cd8;
+	padding: .7em;
+}
+
+.navbar-brand {
+	padding: 10px 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #312a2d;
+}
+
+.nav>li>a {
+	display: inline-block;
+}
+
+/* hero-image */
+
+.hero-image {
+	width: 100%;
+	height: 674px;
+	background: url(../recursos/Fondo_Lideres.png) no-repeat center;
+	background-size: 100%;
+}
+
+.slogan {
+	padding-right: 332px;
+	padding-left: 332px;
+}
+
+.slogan h2 {
+	color: #1d9cd8;
+	padding: 0 69px;
+	text-transform: uppercase;
+}
+
+.slogan span {
+	font-weight: 700;
+	color: #6dac2d;
+}
+
+.slogan p {
+	margin-top: 4px;
+	margin-bottom: 35.6px;
+}
+
+p.col-xs-12 {
+	padding: 0;
+}
+
+.btn-down img {
+	margin: auto;
+} 
+
+/* nosotros */
+
+#nosotros {
+	padding: 0 300px;
+}
+
+hr {
+	width: 33px;
+	border-color: #979797;
+	border-width: 2px;
+	margin: 0.8em auto 2em;
+}
+
+#nosotros a {
+	color: #6db12d;
+}
+
+#nosotros img {
+	height: 8px;
+	width: 12px;
+}
+
+hr.vertical {
+	width: 164px;
+	height: 3px;
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	color: #c0c0c0;
+	margin: 120px auto;
+}
+
+/* objetivo */
+
+#objetivo {
+	height: 400px;
+	background: url(../recursos/fondo_piso.png) no-repeat center;
+	background-size: 100%;
+}
+
+/* footer */
+
+img.separador {
+	position: absolute;
+	top: 1350px;
+}
+
+section.contact{
+	background-color: #4C4C4C;
+}
+section.contact p{
+  color: #9c9c9c;
+  padding: 5% 0% 2%;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+section.contact .form-group{
+	padding: 0% 4%;
+}
+section.contact .form-group button{
+	border-radius: 0;
+  border: 2px solid #6db12d;
+  color: #6db12d;
+  font-size: 0.9em;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+	padding: 4% 17% 4% 8%;
+   margin: 3% 26%;
+}    
+
+section.contact .form-group button img{
+  width: 10px;
+  height: 7px;
+  margin-left: 52%;
+}
+
+footer{
+	background-color: #333;
+	padding: 1.8% 0% 2%;
+}
+
+footer div.row h2{
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+footer .container div.row:nth-child(3) span{
+  color: #f1f1f1;
+  font-size: 13px;
+}    
+nav a{
+	color: #e3e3e3;
+  font-size: 14px;
+}
+
+nav ul{
+	list-style: none;
+
+}
+nav ul li{
+	float: left;
+  text-decoration: none;
+  color: #e3e3e3;
+}
+
+nav a:hover{
+  text-decoration: none;
+}
+
+

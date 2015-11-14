@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="23px" viewBox="0 0 35 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
+    <title>Flecha</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" transform="translate(-703.000000, -543.000000)">
+            <g id="Flecha" sketch:type="MSLayerGroup" transform="translate(703.000000, 543.000000)">
+                <path d="M21.4717222,18.0730263 L4.73705556,0.260526316 L0.216611111,4.63618421 L16.9512778,22.4486842 L21.4717222,18.0730263" id="Fill-1" fill="#1B97D3" sketch:type="MSShapeGroup"></path>
+                <path d="M12.6229444,17.8417105 L12.6003889,17.8638158 L16.9104444,22.4514474 L16.9333889,22.4297368 L12.6229444,17.8417105 M30.4437778,0.592105263 L17.1433889,13.4660526 L21.4538333,18.0540789 L34.7538333,5.18013158 L30.4437778,0.592105263" id="Fill-2" fill="#6DAC2D" sketch:type="MSShapeGroup"></path>
+                <path d="M17.1433889,13.4660526 L12.6229444,17.8417105 L16.9333889,22.4297368 L21.4538333,18.0540789 L17.1433889,13.4660526" id="Fill-3" fill="#0C6625" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

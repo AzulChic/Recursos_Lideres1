@@ -1,0 +1,59 @@
+/* Ingresa tu código css aquí */
+
+#lideres {
+	padding: 5%;
+}
+
+#lideres .box > p {
+	font-weight: bold;
+	margin: 0;
+}
+
+.box{
+	padding: 5%;
+	font-size: 16px;
+
+}
+
+#lideres .container > img {
+	width: 50%;
+	height: auto;
+}
+
+#lideres .row {
+	padding-bottom: 5%;
+}
+
+.separador{
+	background-image: url(../recursos/separador_header.png);
+	height: 250px;
+	background-repeat: no-repeat;
+}
+
+.descripcion{
+	text-align: center;
+	padding: 3%;
+}
+.descripcion h2{
+color: #16C5F8;
+font-size: 2.8em;
+margin: 0;
+}
+.descripcion span{
+	color: green;
+	font-weight: bold;
+	font-size: 3.5em;
+	text-transform: uppercase;
+}
+
+.title{
+	padding: 3% 15%;
+}
+.title > p{
+	font-weight: lighter;
+
+}
+
+#lideres img.separador {
+	top: 2640px;
+}
