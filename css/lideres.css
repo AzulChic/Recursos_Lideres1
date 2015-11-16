@@ -1,48 +1,47 @@
 /* Ingresa tu código css aquí */
 
-#lideres {
-	padding: 5%;
-}
-
 #lideres .box > p {
 	font-weight: bold;
 	margin: 0;
 }
-
-.box{
-	padding: 5%;
-	font-size: 16px;
-
+#lideres .row {
+	padding-bottom: 5%;
 }
-
 #lideres .container > img {
 	width: 50%;
 	height: auto;
 }
 
-#lideres .row {
-	padding-bottom: 5%;
+#lideres img.separador {
+	top: 2640px;
 }
 
-.separador{
-	background-image: url(../recursos/separador_header.png);
-	height: 250px;
-	background-repeat: no-repeat;
+.col-sm-3 img{
+	margin: auto;
+	border-radius: 100%;
+	width: 160px;
+	height: 160px;
 }
-
+/* titulo */
 .descripcion{
 	text-align: center;
-	padding: 3%;
+	padding-bottom: 107.5px;
+	position: relative;
+	bottom: 54px;
 }
+.descripcion p{
+font-size: 19px;
+width: 600px;
+margin: auto;
+}
+
 .descripcion h2{
-color: #16C5F8;
-font-size: 2.8em;
+color: #1d9cd8;
 margin: 0;
 }
 .descripcion span{
-	color: green;
-	font-weight: bold;
-	font-size: 3.5em;
+	color: #6db12d;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -53,7 +52,46 @@ margin: 0;
 	font-weight: lighter;
 
 }
-
-#lideres img.separador {
-	top: 2640px;
+.box{
+	padding: 5%;
+	font-size: 16px;
 }
+
+.box > span{
+	font-size: 12px;
+}
+/****color de iconos ***/
+.icon-lideres{
+	width: 10%;
+	border-radius: 20%;
+}
+.fb {
+	fill: #305891;
+}
+
+.fb:hover {
+	fill: rgba(48,88,145, 0.7);
+	transition: 0.7s ease-in-out;
+}
+
+.tw {
+	fill:  #2CA8D2;
+}
+
+.tw:hover{
+	fill: rgba(44,168,210, 0.7);
+	transition: 0.7s ease-in-out;
+}
+.ln {
+	fill: #1985BC;
+}
+
+.ln:hover{
+	fill:rgba(25,133,188, 0.7);
+}
+
+
+
+
+
+
