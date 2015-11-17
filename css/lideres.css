@@ -1,5 +1,9 @@
 /* Ingresa tu código css aquí */
 
+#lideres {
+	padding: 0 0 5%;
+}
+
 #lideres .box > p {
 	font-weight: bold;
 	margin: 0;
@@ -13,7 +17,7 @@
 }
 
 #lideres img.separador {
-	top: 2640px;
+	top: 2385px;
 }
 
 .col-sm-3 img{
@@ -25,7 +29,7 @@
 /* titulo */
 .descripcion{
 	text-align: center;
-	padding-bottom: 107.5px;
+	padding: 16% 0;
 	position: relative;
 	bottom: 54px;
 }
