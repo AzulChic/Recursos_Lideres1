@@ -6,9 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Líderes +1</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <link href="css/main.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -32,24 +35,24 @@
           <div class="collapse navbar-collapse" id="collapse">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a class="active" href="#nosotros">sobre nosotros</a><img src="recursos/lineas_header.png">
+                <a class="active" href="index.html#nosotros">sobre nosotros</a><img src="recursos/lineas_header.png" class="hidden-xs">
               </li>
               <li>
-                <a href="lideres.html">los líderes</a><img src="recursos/lineas_header.png">
+                <a href="lideres.html">los líderes</a><img src="recursos/lineas_header.png" class="hidden-xs">
               </li>
               <li>
-                <a href="#objetivo">nuestro objetivo</a><img src="recursos/lineas_header.png">
+                <a href="index.html#objetivo">nuestro objetivo</a><img src="recursos/lineas_header.png" class="hidden-xs">
               </li>
               <li>
-                <a href="#conectate">conéctate con nosotros</a>
+                <a href="index.html#contacto">conéctate con nosotros</a>
               </li>
-              <li>
+              <li class="hidden">
                 <a href="www.facebook.com"><i class="fa fa-facebook com"></i></a>
               </li>
-              <li>
+              <li class="hidden">
                 <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
               </li>
-              <li>
+              <li class="hidden">
                 <a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a>
               </li>
             </ul>
@@ -57,7 +60,7 @@
         </div>
       </nav>
     </header>
-    <div class="hero-image text-center">
+    <section class="hero-image text-center">
       <div class="container">
         <div class="separador-header">
           <img src="recursos/separador_header.png" class="img-responsive">
@@ -70,63 +73,101 @@
             </h2>
             <p>Un país competitivo en el marco de nueva economía, como modelo de desarrollo sostenible en armonía con nuestra riqueza natural.</p>
           </div>
-          <div class="btn-down col-xs-12">
+          <div class="btn-down animate bounce">
             <a href="#nosotros"><img src="recursos/flecha.svg" class="img-responsive"></a>
           </div>
         </div>
       </div>
-    </div>
-    <div id="nosotros" class="text-center">
+    </section>
+    <section id="nosotros" class="text-center">
       <h3>sobre nosotros</h3>
       <hr>
       <p>Líderes+1 es una plataforma de líderes empresariales e institucionales, unidos con un fin común: promover el desarrollo sostenible del Perú, y aumentar la competitividad del país, en armonía con la naturaleza y el desarrollo humano.</p>
       <a href="lideres.html">conoce a los líderes <img src="recursos/flecha_verde.png"></a>
       <hr class="vertical">
+    </section>
+    <div class="separador-header hidden-lg">
+      <img src="recursos/separador_header.png" class="img-responsive">
     </div>
-    <div id="objetivo" class="text-center">
+    <section id="objetivo" class="text-center">
       <h3>nuestro objetivo</h3>
       <hr>
-    </div>
-    <section  class="contact" id="contacto">
-      <img src="recursos/separados.svg" class="img-responsive separador">
-      <div class="container">
-        <p class="text-center">Conéctate con nosotros</p>
-        <form>
-          <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Ingresar nombre.">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="media">
+              <div class="pull-left">
+                <h2>1.</h2>
               </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="phone" placeholder="Apellido" required data-validation-required-message="Ingresar apellido.">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id"email" placeholder="E-mail" required data-validation-required-message="Ingresar e-mail">
-              </div>
-              <div class="form-group">
-                <textarea name="message" id="message" class="form-control" rows="8" placeholder="Mensaje"></textarea> 
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-lg">Enviar<img src="recursos/flecha_verde.png"></button>
+              <div class="media-body">
+                <h4>Compartir</h4>
+                <p>Compartir con ejemplo. canalizar modelos de negocio sistémicos, innovadores y escalables de economía circular.</p>
               </div>
             </div>
           </div>
-        </form>
-      </div>  
+          <div class="col-sm-4">
+            <div class="media">
+              <div class="pull-left">
+                <h2>2.</h2>
+              </div>
+              <div class="media-body">
+                <h4>Conectar</h4>
+                <p>Conectar a más líderes peruanos con las tendencias y oportunidades de la nueva economía de crecimiento verde y de desarrollo sostenible.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="media">
+              <div class="pull-left">
+                <h2>3.</h2>
+              </div>
+              <div class="media-body">
+                <h4>Promover</h4>
+                <p>Promover sinergias público-privadas a niveles nacional e internacional, para activar la agenda de crecimiento verde a través de mejores políticas de desarrollo sostenible.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-<!-- footer -->
     <footer>
+      <section  class="contact" id="contacto">
+        <img src="recursos/separados.svg" class="img-responsive separador hidden-xs">
+        <div class="container">
+          <p class="text-center">Conéctate con nosotros</p>
+          <form action="//laboratoria.us12.list-manage.com/subscribe/post?u=3ab5ccdc4ac37ce69c502ddeb&amp;id=e7ef2bbd90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-4">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Ingresar nombre.">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="phone" placeholder="Apellido" required data-validation-required-message="Ingresar apellido.">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id"email" placeholder="E-mail" required data-validation-required-message="Ingresar e-mail">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="8" placeholder="Mensaje"></textarea> 
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-lg"><a href="#">Enviar</a><img src="recursos/flecha_verde.png"></button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>  
+      </section>
       <div class="container text-center">
         <div class="row">
-          <span>Lideres +1</span>
+          <h2>Líderes +1</h2>
         </div>
-        <div class="row">
-          <nav>
-            <ul>
-              <li>quiénes somos</li>
-              <li>nuestro objetivo</li>
-              <li>sé parte de líderes +1</li>
+        <div class="row hidden-xs">
+          <nav class="navbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">quiénes somos</a> |</li>
+              <li><a href="#">nuestro objetivo</a> |</li>
+              <li><a href="#">sé parte de líderes+1</a></li>
             </ul>
           </nav>
         </div>  
@@ -135,9 +176,9 @@
         </div>
       </div>
     </footer>
-
-    <script src="js/bootstrap.min.js"></script>
+    
     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
